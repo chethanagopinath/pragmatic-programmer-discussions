@@ -35,9 +35,6 @@ class AddressBook:
 
 
 if __name__ == "__main__":
-    # Adding directions field for newer data meant I need to modify previous data
-    # Which is interesting for binary - could keep an updated timestamp but if its all in binary, its just not understandable
-    # Also directions can vary a lot, so thats difficult to predict and pad for accordingly, if its over the limit, the field's val gets truncated
     ab = AddressBook(
         name="Chethana",
         phone="6073450377",
